@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "scheme": "exercisebuddy",
+    "name": "ExerciseBuddy",
+    "slug": "exercise-buddy",
+    "version": "1.0.0",
+    "icon": "./assets/images/avatar.png",
+    "android": {
+      "package": "com.exercisebuddy2",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/avatar.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8a7d7abf-f06c-4dab-865b-94e5b70e37ce"
+      }
+    },
+    "owner": "dexter217",
+    "plugins": [
+      "expo-video",
+      "expo-asset"
+    ]
+  }
+}
