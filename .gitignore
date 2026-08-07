@@ -48,3 +48,4 @@ full-build-log.txt
 stacktrace.txt 
 *.log
 *.zip
+modules/mediapipe-pose/android/.gradle/
