@@ -10,15 +10,15 @@ import {
   Dimensions,
   Animated,
 } from "react-native";
-import { Stack, useRouter } from "expo-router";
+import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
-import { exercises } from "../../mobile/data/exercises";
-import ExerciseCard from "../../mobile/components/exercise/ExerciseCard";
-import AIWorkoutCard from "../../mobile/components/exercise/AIWorkoutCard";
-import FilterChip from "../../mobile/components/exercise/FilterChip";
-import SelectionSummary from "../../mobile/components/exercise/SelectionSummary";
-import AuroraBackground from "../../mobile/components/yoga/AuroraBackground";
+import { exercises } from "@/data/exercises";
+import ExerciseCard from "@/components/exercise/ExerciseCard";
+import AIWorkoutCard from "@/components/exercise/AIWorkoutCard";
+import FilterChip from "@/components/exercise/FilterChip";
+import SelectionSummary from "@/components/exercise/SelectionSummary";
+import AuroraBackground from "@/components/yoga/AuroraBackground";
 
 const { height: SCREEN_H } = Dimensions.get("window");
 
