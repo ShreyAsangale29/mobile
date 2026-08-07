@@ -54,7 +54,7 @@ export const exercises: ExerciseMeta[] = [
       "Engage your core and glutes to keep your body in one line.",
       "Hold the position while breathing steadily.",
     ],
-    image: require("../assets/images/exercises/plank.png"),
+    // image: require("../assets/images/exercises/plank.png"), // TODO: file failed AAPT compile, replace with a valid PNG
   },
   {
     id: "lunges",
@@ -88,7 +88,7 @@ export const exercises: ExerciseMeta[] = [
       "Go down until your thighs are roughly parallel to the floor.",
       "Drive through your heels to stand back up.",
     ],
-    image: require("../assets/images/exercises/squats.png"),
+    // image: require("../assets/images/exercises/squats.png"), // TODO: file failed AAPT compile, replace with a valid PNG
   },
 
   // ── Advanced ─────────────────────────────────────────────────────────
@@ -122,6 +122,6 @@ export const exercises: ExerciseMeta[] = [
       "Go as deep as your mobility allows, chest up.",
       "Push through your standing heel to return to standing.",
     ],
-    image: require("../assets/images/exercises/pistol_squat.png"),
+    // image: require("../assets/images/exercises/pistol_squat.png"), // TODO: file failed AAPT compile, replace with a valid PNG
   },
 ];
